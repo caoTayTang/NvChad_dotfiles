@@ -20,4 +20,14 @@ M.mason = { --mason sever
   }
 }
 
+M.nvterm = {
+  type_opts = {
+    float = {
+      width = 1.0,
+      height = 0.6,
+    }
+  }
+}
+
+
 return M
