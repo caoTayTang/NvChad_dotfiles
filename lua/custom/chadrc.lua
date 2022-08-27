@@ -19,7 +19,8 @@ M.plugins = {
   override = {
     ["kyazdani42/nvim-tree.lua"] = pluginConfs.nvimtree,
     ["williamboman/mason.nvim"] = pluginConfs.mason,
-    ["NvChad/nvterm"] = pluginConfs.nvterm
+    ["NvChad/nvterm"] = pluginConfs.nvterm,
+    ["lukas-reineke/indent-blankline.nvim"] = pluginConfs.indent_blankline,
   }
   ,
 
