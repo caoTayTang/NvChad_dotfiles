@@ -3,7 +3,6 @@ local M = {}
 M.nvimtree = {
   n = {
     ["<leader>cf"] = { "<cmd> cd C:/Users/lechi/OneDrive - y1zrr/Programming/luyencode <CR>", "cdf" },
-    ["<leader>cv"] = { "<cmd> cd C:/users/lechi/appdata/local/nvim <CR>", "cdvim"},
 
     ["<F5>"] = { "<cmd> NvimTreeToggle <CR>", "   toggle nvimtree" },
     ["<C-n>"] = { "<cmd> Telescope <CR>", "open telescope" },
