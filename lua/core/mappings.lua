@@ -20,7 +20,7 @@ M.general = {
   },
 
   n = {
-    ["C-z"] = { "<Esc>", "Avoid freeze when hit Ctrl Z"},
+    ["C-z"] = { "<Nop>", "Avoid freeze when hit Ctrl Z"},
     ["<ESC>"] = { "<cmd> noh <CR>", "no highlight" },
 
     -- switch between windows
