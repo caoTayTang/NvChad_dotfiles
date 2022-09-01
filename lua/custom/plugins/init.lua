@@ -28,4 +28,12 @@ return {
     end,
   },
 
+  ["tzachar/cmp-tabnine"] = {
+    after = "nvim-cmp",
+    run = "./install.sh",
+    config = function()
+      require "custom.plugins.tabnine"
+    end,
+  },
+
 }

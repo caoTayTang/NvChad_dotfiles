@@ -21,8 +21,7 @@ M.plugins = {
     ["williamboman/mason.nvim"] = pluginConfs.mason,
     ["NvChad/nvterm"] = pluginConfs.nvterm,
     ["lukas-reineke/indent-blankline.nvim"] = pluginConfs.indent_blankline,
-  }
-  ,
+  },
 
   user = require "custom.plugins",
 

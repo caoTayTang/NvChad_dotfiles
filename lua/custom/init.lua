@@ -3,6 +3,8 @@
 
 -- you can even override default options here (core/options.lua)
 --
+--vim.cmd ":set shell='C:/Program\\ Files/PowerShell/7/pwsh.exe'"
+--vim.o.shell = '"C:/Program Files/PowerShell/7/pwsh.exe"'
 vim.opt.backup = false
 vim.opt.wb = false
 vim.opt.swapfile = false
