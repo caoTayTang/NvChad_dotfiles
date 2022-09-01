@@ -37,9 +37,9 @@ return {
   },
 
   ['f-person/git-blame.nvim'] = {
-    config = function()
-      require "custom.plugins.git_blame"
-    end,
+    -- config = function()
+    --   require "custom.plugins.git_blame"
+    -- end,
   },
 
 }
