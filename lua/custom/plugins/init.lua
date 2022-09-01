@@ -1,3 +1,5 @@
+local conf = require "custom.plugins.configs"
+
 return {
   
   ["goolord/alpha-nvim"] = {
@@ -30,10 +32,8 @@ return {
 
   ["tzachar/cmp-tabnine"] = {
     after = "nvim-cmp",
-    run = "./install.sh",
-    config = function()
-      require "custom.plugins.tabnine"
-    end,
+    run = "./install.ps1",
+    config = conf.tabine,
   },
 
   ['f-person/git-blame.nvim'] = {
