@@ -23,6 +23,7 @@ M.plugins = {
     ["lukas-reineke/indent-blankline.nvim"] = pluginConfs.indent_blankline,
     ["tzachar/cmp-tabnine"] = pluginConfs.tabnine,
     ["hrsh7th/nvim-cmp"] = pluginConfs.cmp,
+    ["nvim-treesitter/nvim-treesitter"] = pluginConfs.treesitter,
   },
 
   user = require "custom.plugins",

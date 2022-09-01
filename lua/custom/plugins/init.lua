@@ -1,7 +1,7 @@
 local conf = require "custom.plugins.configs"
 
 return {
-  
+
   ["goolord/alpha-nvim"] = {
     disable = false,
   },
@@ -36,10 +36,11 @@ return {
     config = conf.tabine,
   },
 
-  ['f-person/git-blame.nvim'] = {
-    -- config = function()
-    --   require "custom.plugins.git_blame"
-    -- end,
+  ['ap/vim-css-color'] = {
+  },
+
+  ['mattn/emmet-vim'] = {
+    config = conf.emmet
   },
 
 }

@@ -11,13 +11,13 @@ M.nvimtree = {
 }
 
 -- M.alpha = {
-  --   disable = false,
-  -- }
+--   disable = false,
+-- }
 
-  M.mason = { --mason sever 
-  ["williamboman/mason.nvim"] = {
-    ensure_installed = { "lua-language-server","cpp","php","html","json", "html","javascript" },
-  }
+M.mason = { --mason sever 
+["williamboman/mason.nvim"] = {
+  ensure_installed = { "lua-language-server","cpp","php","html","json", "html","javascript" },
+}
 }
 
 M.nvterm = {
@@ -34,7 +34,7 @@ M.cmp = function()
     formatting = {
       format = function(entry, vim_item)
         if entry.source.name == 'cmp_tabnine' and entry.completion_item.data ~= nil then
-            vim_item.kind = string.format("%s %s", '', ' TabNine')
+          vim_item.kind = string.format("%s %s", '', ' TabNine')
         else
           local icons = require("nvchad_ui.icons").lspkind
           vim_item.kind = string.format("%s %s", icons[vim_item.kind], vim_item.kind)
@@ -61,6 +61,21 @@ M.tabnine = function()
     sort = true,
     run_on_every_keystroke = true,
     show_prediction_strength = false
+  }
+end
+
+
+M.emmet = {
+    user_emmet_leader_key = " "
+}
+
+M.treesitter = function()
+  return {
+    highlight = {
+      enable = true,
+      -- use_languagetree = true,
+      additional_vim_regex_highlighting = true
+    }
   }
 end
 

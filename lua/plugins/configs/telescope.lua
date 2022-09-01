@@ -37,7 +37,7 @@ local options = {
       },
       width = 0.87,
       height = 0.80,
-      preview_cutoff = 120,
+      preview_cutoff = 1,
     },
     file_sorter = require("telescope.sorters").get_fuzzy_file,
     file_ignore_patterns = { "node_modules" },
