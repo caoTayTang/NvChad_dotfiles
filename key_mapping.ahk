@@ -1,7 +1,7 @@
 LCtrl::
 Return
 
-RShift & Capslock::
+RCtrl & Capslock::
 SetCapsLockState, % (State:=!State) ? "on" : "alwaysoff"
 Return
 

@@ -66,7 +66,7 @@ end
 
 
 M.emmet = {
-    user_emmet_leader_key = " "
+  
 }
 
 M.treesitter = function()

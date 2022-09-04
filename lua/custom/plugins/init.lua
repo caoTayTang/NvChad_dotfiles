@@ -50,6 +50,10 @@ return {
         -- or just leave it empty :)
       }
     end,
-  }
+  },
+
+  ['jwalton512/vim-blade'] = {
+
+  },
 
 }
