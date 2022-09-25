@@ -20,7 +20,6 @@ vim.opt.swapfile = false
 vim.g.neovide_cursor_animation_length = 0.05
 vim.g.neovide_cursor_trail_size = 0.1
 vim.g.neovide_cursor_vfx_mode = "ripple"
-vim.g.neovide_fullscreen= true
 vim.g.neovide_remember_window_size = true
 vim.g.neovide_cursor_animation_length = 0.13
 vim.g.neovide_cursor_trail_length=0

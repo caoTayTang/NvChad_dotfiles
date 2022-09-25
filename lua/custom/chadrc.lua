@@ -8,7 +8,7 @@ M.mappings = require "custom.mappings"
 -- example of changing theme:
 
 M.ui = {
-  theme = "kanagawa",
+  theme = "ayu-dark",
   theme_toggle = {"kanagawa","ayu-dark"},
 }
 
